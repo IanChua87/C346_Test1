@@ -16,7 +16,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="15sp"
-            android:text="@string/name" />
+            android:text="@string/name"
+            />
 
         <EditText
             android:id="@+id/editTextText2"
@@ -36,6 +37,8 @@
         android:orientation="horizontal">
 
         <TextView
+
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Password:"
@@ -44,15 +47,13 @@
             />
 
         <EditText
-
+            android:id="@+id/text1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="0.25"
             android:ems="10"
             android:inputType="textPassword"
-            android:layout_weight="0.25"
-            android:textSize="20sp"
-
-            />
+            android:textSize="20sp" />
 
     </LinearLayout>
 
