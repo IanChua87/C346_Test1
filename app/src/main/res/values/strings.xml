@@ -3,6 +3,7 @@
     <string name="welcome_to_android">Welcome to Android!</string>
     <string name="button_1">Button 1</string>
     <string name="button_2">Button 2</string>
+    <string name="name">Name:</string>
 </resources>
 
 
